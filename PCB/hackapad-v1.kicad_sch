@@ -912,6 +912,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N4148W"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148W"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N4148W_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148W_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Seeed_Studio_XIAO_Series_2:XIAO-RP2040-Plus-SMD"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2287,80 +2474,80 @@
 		)
 	)
 	(junction
-		(at 196.85 73.66)
+		(at 173.99 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0aaf34d7-ede7-4d61-bb56-3301c265e8af")
 	)
 	(junction
-		(at 196.85 60.96)
+		(at 173.99 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ebb030b-b9d4-4347-a545-c63661055d15")
 	)
 	(junction
-		(at 229.87 60.96)
+		(at 207.01 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "432a0e3e-c11b-4df4-89b5-ab85a4ffc733")
 	)
 	(junction
-		(at 196.85 85.09)
+		(at 173.99 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60e7934e-3433-4263-847e-943d26f54f3c")
 	)
 	(junction
-		(at 213.36 73.66)
+		(at 190.5 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81f0e0c8-9beb-4cdf-81ff-34c0f7bd6df1")
 	)
 	(junction
-		(at 213.36 60.96)
+		(at 190.5 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89b2a75a-d8e3-43a4-b7bd-3c4361a9e3bc")
 	)
 	(junction
-		(at 213.36 88.9)
+		(at 190.5 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99b88e19-a3de-41f9-b9c3-83dc52310dbe")
 	)
 	(junction
-		(at 229.87 73.66)
+		(at 207.01 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ba4de48-6a77-4b64-8ff1-382d9bed91f1")
 	)
 	(junction
-		(at 246.38 88.9)
+		(at 223.52 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b76ffec0-330b-4b80-a11a-cb5340383500")
 	)
 	(junction
-		(at 229.87 85.09)
+		(at 207.01 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd276b3f-e74b-43f6-85ba-89ac4837403c")
 	)
 	(junction
-		(at 213.36 85.09)
+		(at 190.5 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d35f957d-ddcf-4c92-b23c-6978022b929d")
 	)
 	(junction
-		(at 229.87 88.9)
+		(at 207.01 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d66e0286-65a8-46a5-94a0-e656652c676c")
 	)
 	(wire
 		(pts
-			(xy 229.87 73.66) (xy 229.87 85.09)
+			(xy 207.01 74.93) (xy 207.01 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2370,7 +2557,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 120.65) (xy 241.3 123.19)
+			(xy 218.44 121.92) (xy 218.44 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2380,7 +2567,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 85.09) (xy 203.2 85.09)
+			(xy 176.53 86.36) (xy 180.34 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2390,7 +2577,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 66.04) (xy 157.48 66.04)
+			(xy 130.81 67.31) (xy 134.62 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2400,7 +2587,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 73.66) (xy 196.85 85.09)
+			(xy 173.99 74.93) (xy 173.99 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2410,7 +2597,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 88.9) (xy 246.38 88.9)
+			(xy 207.01 90.17) (xy 223.52 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2420,7 +2607,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 46.99) (xy 101.6 46.99)
+			(xy 73.66 48.26) (xy 78.74 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2430,7 +2617,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 88.9) (xy 213.36 88.9)
+			(xy 173.99 90.17) (xy 190.5 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2440,7 +2627,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 66.04) (xy 101.6 66.04)
+			(xy 73.66 67.31) (xy 78.74 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2450,7 +2637,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 114.3) (xy 182.88 114.3)
+			(xy 156.21 115.57) (xy 160.02 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2460,7 +2647,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 101.6) (xy 101.6 101.6)
+			(xy 73.66 102.87) (xy 78.74 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2470,7 +2657,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 93.98) (xy 101.6 93.98)
+			(xy 73.66 95.25) (xy 78.74 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2480,7 +2667,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 111.76) (xy 207.01 111.76)
+			(xy 180.34 113.03) (xy 184.15 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2490,7 +2677,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 78.74) (xy 101.6 78.74)
+			(xy 73.66 80.01) (xy 78.74 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2500,7 +2687,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 49.53) (xy 196.85 60.96)
+			(xy 173.99 50.8) (xy 173.99 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2510,7 +2697,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 71.12) (xy 101.6 71.12)
+			(xy 73.66 72.39) (xy 78.74 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2520,7 +2707,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 114.3) (xy 207.01 114.3)
+			(xy 180.34 115.57) (xy 184.15 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2530,7 +2717,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 60.96) (xy 203.2 60.96)
+			(xy 176.53 62.23) (xy 180.34 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2540,7 +2727,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 62.23) (xy 157.48 62.23)
+			(xy 130.81 63.5) (xy 134.62 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2550,7 +2737,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 116.84) (xy 182.88 116.84)
+			(xy 156.21 118.11) (xy 160.02 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2560,7 +2747,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 85.09) (xy 246.38 88.9)
+			(xy 223.52 86.36) (xy 223.52 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2570,7 +2757,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 109.22) (xy 207.01 109.22)
+			(xy 180.34 110.49) (xy 184.15 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2580,7 +2767,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 85.09) (xy 229.87 88.9)
+			(xy 207.01 86.36) (xy 207.01 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2590,7 +2777,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 54.61) (xy 157.48 54.61)
+			(xy 130.81 55.88) (xy 134.62 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2600,7 +2787,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 88.9) (xy 229.87 88.9)
+			(xy 190.5 90.17) (xy 207.01 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2610,7 +2797,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 88.9) (xy 250.19 88.9)
+			(xy 223.52 90.17) (xy 227.33 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2620,7 +2807,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 58.42) (xy 157.48 58.42)
+			(xy 130.81 59.69) (xy 134.62 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2630,7 +2817,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 110.49) (xy 233.68 110.49)
+			(xy 207.01 111.76) (xy 210.82 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2640,7 +2827,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 60.96) (xy 213.36 73.66)
+			(xy 190.5 62.23) (xy 190.5 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2650,7 +2837,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 62.23) (xy 101.6 62.23)
+			(xy 73.66 63.5) (xy 78.74 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2660,7 +2847,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 49.53) (xy 229.87 60.96)
+			(xy 207.01 50.8) (xy 207.01 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2670,7 +2857,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 54.61) (xy 101.6 54.61)
+			(xy 73.66 55.88) (xy 78.74 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2680,7 +2867,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 73.66) (xy 203.2 73.66)
+			(xy 176.53 74.93) (xy 180.34 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2690,7 +2877,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 85.09) (xy 213.36 88.9)
+			(xy 190.5 86.36) (xy 190.5 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2700,7 +2887,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 49.53) (xy 186.69 49.53)
+			(xy 160.02 50.8) (xy 163.83 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2710,7 +2897,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 110.49) (xy 251.46 110.49)
+			(xy 226.06 111.76) (xy 228.6 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2720,7 +2907,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 60.96) (xy 229.87 73.66)
+			(xy 207.01 62.23) (xy 207.01 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2730,7 +2917,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 85.09) (xy 219.71 85.09)
+			(xy 193.04 86.36) (xy 196.85 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2740,7 +2927,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 109.22) (xy 182.88 109.22)
+			(xy 156.21 110.49) (xy 160.02 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2750,7 +2937,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 33.02) (xy 132.08 36.83)
+			(xy 109.22 34.29) (xy 109.22 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2760,7 +2947,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 113.03) (xy 233.68 113.03)
+			(xy 207.01 114.3) (xy 210.82 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2770,7 +2957,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 97.79) (xy 101.6 97.79)
+			(xy 73.66 99.06) (xy 78.74 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2780,7 +2967,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 118.11) (xy 203.2 116.84)
+			(xy 180.34 119.38) (xy 180.34 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2790,7 +2977,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 43.18) (xy 157.48 43.18)
+			(xy 130.81 44.45) (xy 134.62 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2800,7 +2987,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 74.93) (xy 101.6 74.93)
+			(xy 73.66 76.2) (xy 78.74 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2810,7 +2997,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 115.57) (xy 251.46 115.57)
+			(xy 226.06 116.84) (xy 228.6 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2820,7 +3007,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 73.66) (xy 213.36 85.09)
+			(xy 190.5 74.93) (xy 190.5 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2830,7 +3017,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 115.57) (xy 233.68 115.57)
+			(xy 207.01 116.84) (xy 210.82 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2840,7 +3027,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 118.11) (xy 179.07 116.84)
+			(xy 156.21 119.38) (xy 156.21 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2850,7 +3037,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 33.02) (xy 128.27 36.83)
+			(xy 105.41 34.29) (xy 105.41 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2860,7 +3047,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 60.96) (xy 196.85 73.66)
+			(xy 173.99 62.23) (xy 173.99 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2870,7 +3057,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 49.53) (xy 213.36 60.96)
+			(xy 190.5 50.8) (xy 190.5 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2880,7 +3067,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 85.09) (xy 196.85 88.9)
+			(xy 173.99 86.36) (xy 173.99 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2890,7 +3077,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 49.53) (xy 219.71 49.53)
+			(xy 193.04 50.8) (xy 196.85 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2900,7 +3087,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 73.66) (xy 186.69 73.66)
+			(xy 160.02 74.93) (xy 163.83 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2910,7 +3097,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 116.84) (xy 207.01 116.84)
+			(xy 180.34 118.11) (xy 184.15 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2920,7 +3107,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 60.96) (xy 219.71 60.96)
+			(xy 193.04 62.23) (xy 196.85 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2930,7 +3117,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 85.09) (xy 236.22 85.09)
+			(xy 209.55 86.36) (xy 213.36 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2940,7 +3127,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 73.66) (xy 219.71 73.66)
+			(xy 193.04 74.93) (xy 196.85 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2950,7 +3137,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 46.99) (xy 157.48 46.99)
+			(xy 130.81 48.26) (xy 134.62 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2960,7 +3147,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 49.53) (xy 203.2 49.53)
+			(xy 176.53 50.8) (xy 180.34 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2970,7 +3157,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 85.09) (xy 186.69 85.09)
+			(xy 160.02 86.36) (xy 163.83 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2980,7 +3167,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 111.76) (xy 182.88 111.76)
+			(xy 156.21 113.03) (xy 160.02 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2990,7 +3177,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 50.8) (xy 101.6 50.8)
+			(xy 73.66 52.07) (xy 78.74 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3000,7 +3187,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 60.96) (xy 186.69 60.96)
+			(xy 160.02 62.23) (xy 163.83 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3010,7 +3197,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 58.42) (xy 101.6 58.42)
+			(xy 73.66 59.69) (xy 78.74 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3020,7 +3207,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 43.18) (xy 101.6 43.18)
+			(xy 73.66 44.45) (xy 78.74 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3030,7 +3217,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 50.8) (xy 157.48 50.8)
+			(xy 130.81 52.07) (xy 134.62 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3038,28 +3225,38 @@
 		)
 		(uuid "fa741769-3944-455f-ac32-a47088f83fcd")
 	)
-	(label "D26"
-		(at 199.39 85.09 0)
+	(label "D10"
+		(at 209.55 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "045f2abb-6a2b-40fc-8ffc-c2a72348b0fe")
+		(uuid "334b1a2c-d4d7-4261-bccb-85e1651dd55d")
 	)
-	(label "D26"
-		(at 232.41 85.09 0)
+	(label "D0"
+		(at 228.6 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "400927d1-c2a1-4e7a-bf11-4059fd671dc4")
+		(uuid "43853e98-06d8-4c5a-b034-c36c04de3933")
+	)
+	(label "D2"
+		(at 193.04 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "442bb4e6-aa27-4da6-b331-1e4ccad20b33")
 	)
 	(label "SDA"
-		(at 96.52 58.42 0)
+		(at 73.66 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3068,8 +3265,18 @@
 		)
 		(uuid "451f87fb-d564-43dc-ac60-762eaaa46a5f")
 	)
+	(label "D18"
+		(at 176.53 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e22af71-33da-4866-bb92-13f70dcd08c4")
+	)
 	(label "D6"
-		(at 96.52 66.04 0)
+		(at 73.66 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3078,28 +3285,28 @@
 		)
 		(uuid "4f9a4e3a-06bd-48e3-9b39-b2635ea2a1b8")
 	)
-	(label "D9"
-		(at 199.39 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5897da90-cc45-4d11-b301-dc081d35ef98")
-	)
 	(label "D26"
-		(at 215.9 49.53 0)
+		(at 193.04 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "5b145fb2-9aa8-4b57-a32c-c920f637b237")
+		(uuid "55321cd5-f49f-4e2c-b055-a13c681bc212")
+	)
+	(label "D9"
+		(at 160.02 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "648bf462-ee4d-4306-bf69-b0f22b9b1c3a")
 	)
 	(label "D+"
-		(at 132.08 33.02 0)
+		(at 109.22 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3109,7 +3316,7 @@
 		(uuid "6b9ca526-5e6b-449f-88d8-5d5cdfbfd411")
 	)
 	(label "D2"
-		(at 96.52 50.8 0)
+		(at 73.66 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3118,8 +3325,18 @@
 		)
 		(uuid "70294cb2-0d93-41a0-8229-b1e543ca5464")
 	)
+	(label "D3"
+		(at 176.53 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "724fce53-36a6-4910-af00-7ac63ca3d082")
+	)
 	(label "D-"
-		(at 128.27 33.02 0)
+		(at 105.41 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3129,7 +3346,7 @@
 		(uuid "77f078fc-ac78-4ee6-b2c8-93f26e06eb0a")
 	)
 	(label "D27"
-		(at 96.52 93.98 0)
+		(at 73.66 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3138,8 +3355,18 @@
 		)
 		(uuid "789235f6-34fb-4706-b9f4-26f528f7bac5")
 	)
+	(label "D20"
+		(at 193.04 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b7243bf-9a86-462f-ab15-7c2e51412c23")
+	)
 	(label "D8"
-		(at 157.48 62.23 0)
+		(at 134.62 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3149,7 +3376,7 @@
 		(uuid "7e732543-7232-4183-b7d8-c9554085e61a")
 	)
 	(label "D8"
-		(at 182.88 85.09 0)
+		(at 160.02 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3158,18 +3385,8 @@
 		)
 		(uuid "87993c3f-1e50-4b6b-b247-0754477dc59c")
 	)
-	(label "D10"
-		(at 199.39 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "93ee4e83-e6fe-43ba-9157-c08d39bf37c8")
-	)
 	(label "SCL"
-		(at 96.52 62.23 0)
+		(at 73.66 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3179,7 +3396,7 @@
 		(uuid "97a7ecbf-cd1a-4231-b344-f277c7fdd305")
 	)
 	(label "D25"
-		(at 199.39 73.66 0)
+		(at 176.53 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3188,18 +3405,8 @@
 		)
 		(uuid "9be984bc-8950-4ed4-9812-125a929a16d5")
 	)
-	(label "D20"
-		(at 215.9 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9dda1c9a-6f9c-4f43-99e9-33a7bcd33f79")
-	)
 	(label "D21"
-		(at 96.52 78.74 0)
+		(at 73.66 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3209,7 +3416,7 @@
 		(uuid "9f9c28a1-d3fc-4a3f-8d69-d1302e7e384a")
 	)
 	(label "SCL"
-		(at 179.07 111.76 0)
+		(at 156.21 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3219,7 +3426,7 @@
 		(uuid "a4027bf3-04f2-4fbe-81c2-ae4f50b52ace")
 	)
 	(label "D-"
-		(at 203.2 114.3 0)
+		(at 180.34 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3228,18 +3435,8 @@
 		)
 		(uuid "b19235ee-0272-43df-a6bb-e3fd869357d9")
 	)
-	(label "D3"
-		(at 182.88 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b1ca3014-fdaf-4aa4-abe2-addc5beba9c9")
-	)
 	(label "D7"
-		(at 157.48 66.04 0)
+		(at 134.62 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3249,17 +3446,27 @@
 		(uuid "b1e19d74-8249-42b2-9b20-abd200f7c587")
 	)
 	(label "D19"
-		(at 215.9 60.96 0)
+		(at 207.01 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b268ab64-0076-4dfc-8bcf-57ae3b2fa14a")
+		(uuid "b2367a28-b0f9-472a-b180-6b6c8933130c")
+	)
+	(label "D27"
+		(at 176.53 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b41fd226-9183-4849-8f42-6c82a468097a")
 	)
 	(label "D3"
-		(at 96.52 54.61 0)
+		(at 73.66 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3269,7 +3476,7 @@
 		(uuid "b43ae267-dd66-47f1-9620-0dc5a93cdabc")
 	)
 	(label "D6"
-		(at 182.88 60.96 0)
+		(at 160.02 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3279,7 +3486,7 @@
 		(uuid "b9601d85-b3e5-419f-8081-ab990df09d08")
 	)
 	(label "D25"
-		(at 96.52 101.6 0)
+		(at 73.66 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3288,28 +3495,8 @@
 		)
 		(uuid "ba85cf08-c1f5-45ef-bd84-dfbb8c95281f")
 	)
-	(label "D0"
-		(at 231.14 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c5dff046-c563-4c59-928d-8bf6ba037db3")
-	)
-	(label "D2"
-		(at 251.46 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cbd56e55-afae-4e8b-8b6a-3b76a23d1879")
-	)
 	(label "D10"
-		(at 157.48 54.61 0)
+		(at 134.62 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3319,7 +3506,7 @@
 		(uuid "d2230327-bdaf-4ec5-bdf6-744ec39a2285")
 	)
 	(label "D1"
-		(at 231.14 115.57 0)
+		(at 207.01 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3329,7 +3516,7 @@
 		(uuid "d224f93b-a710-4527-97d5-f3fb7cc75317")
 	)
 	(label "D7"
-		(at 182.88 73.66 0)
+		(at 160.02 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3339,17 +3526,17 @@
 		(uuid "d4d58981-61cc-4861-83dd-9289cc4b331a")
 	)
 	(label "D21"
-		(at 215.9 85.09 0)
+		(at 193.04 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d6dd313f-deab-4f02-863c-178be29cc8ee")
+		(uuid "d57b98ae-5524-4e4c-9ab1-2a86350bf6f6")
 	)
 	(label "D26"
-		(at 96.52 97.79 0)
+		(at 73.66 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3359,7 +3546,7 @@
 		(uuid "d992d28e-9058-4ef5-ad62-6a5191787cd2")
 	)
 	(label "D+"
-		(at 203.2 111.76 0)
+		(at 180.34 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3369,7 +3556,7 @@
 		(uuid "e2c986a2-d7d6-4ae9-b225-e700ee79757a")
 	)
 	(label "D1"
-		(at 96.52 46.99 0)
+		(at 73.66 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3379,7 +3566,7 @@
 		(uuid "e37e5bcf-e158-4d1e-9f46-3118fb587bad")
 	)
 	(label "D20"
-		(at 96.52 74.93 0)
+		(at 73.66 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3389,7 +3576,7 @@
 		(uuid "e86a82e3-77c9-4c47-99e5-84f55ab2302c")
 	)
 	(label "D0"
-		(at 96.52 43.18 0)
+		(at 73.66 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3399,7 +3586,7 @@
 		(uuid "eba8ab48-acf9-4e80-b465-bfde2ef1162f")
 	)
 	(label "SDA"
-		(at 179.07 109.22 0)
+		(at 156.21 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3409,7 +3596,7 @@
 		(uuid "fe4e319d-eba0-4716-9666-753c7d66a963")
 	)
 	(label "D19"
-		(at 96.52 71.12 0)
+		(at 73.66 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3419,7 +3606,7 @@
 		(uuid "fee9ab4a-16f1-4350-bf8f-3e756c64b545")
 	)
 	(label "D9"
-		(at 157.48 58.42 0)
+		(at 134.62 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3430,7 +3617,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 208.28 85.09 0)
+		(at 185.42 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3441,7 +3628,7 @@
 		(fields_autoplaced yes)
 		(uuid "018ec48f-0469-4dbe-ab99-333aaa62ad46")
 		(property "Reference" "SW8"
-			(at 208.28 77.47 0)
+			(at 185.42 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3451,7 +3638,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 208.28 80.01 0)
+			(at 185.42 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3461,7 +3648,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 208.28 80.01 0)
+			(at 185.42 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3472,7 +3659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 80.01 0)
+			(at 185.42 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3483,7 +3670,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 208.28 85.09 0)
+			(at 185.42 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3510,7 +3697,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 191.77 60.96 0)
+		(at 168.91 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3521,7 +3708,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c81702b-a1df-403b-a686-68c93e1abbe5")
 		(property "Reference" "SW2"
-			(at 191.77 53.34 0)
+			(at 168.91 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3531,7 +3718,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 191.77 55.88 0)
+			(at 168.91 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3541,7 +3728,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 191.77 55.88 0)
+			(at 168.91 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3552,7 +3739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 55.88 0)
+			(at 168.91 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3563,7 +3750,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 191.77 60.96 0)
+			(at 168.91 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3590,7 +3777,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 118.11 0)
+		(at 180.34 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3601,7 +3788,7 @@
 		(fields_autoplaced yes)
 		(uuid "10918eb7-e276-4f5a-9f93-b23e2a02c964")
 		(property "Reference" "#PWR01"
-			(at 203.2 124.46 0)
+			(at 180.34 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3612,7 +3799,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 123.19 0)
+			(at 180.34 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3622,7 +3809,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 118.11 0)
+			(at 180.34 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3633,7 +3820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 118.11 0)
+			(at 180.34 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3644,7 +3831,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 118.11 0)
+			(at 180.34 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3668,7 +3855,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 224.79 85.09 0)
+		(at 201.93 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3679,7 +3866,7 @@
 		(fields_autoplaced yes)
 		(uuid "2cf0e356-5b8f-42b7-80ab-c54ee6f21f21")
 		(property "Reference" "SW12"
-			(at 224.79 77.47 0)
+			(at 201.93 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3689,7 +3876,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 224.79 80.01 0)
+			(at 201.93 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3699,7 +3886,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 224.79 80.01 0)
+			(at 201.93 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3710,7 +3897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 80.01 0)
+			(at 201.93 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3721,7 +3908,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 224.79 85.09 0)
+			(at 201.93 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3748,7 +3935,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 187.96 111.76 0)
+		(at 165.1 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3758,7 +3945,7 @@
 		(dnp no)
 		(uuid "3608ec25-7da0-4d41-96c7-d19ce9006530")
 		(property "Reference" "J2"
-			(at 183.896 103.378 0)
+			(at 161.036 104.648 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3769,7 +3956,7 @@
 			)
 		)
 		(property "Value" "OLED"
-			(at 182.626 105.918 0)
+			(at 159.766 107.188 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3780,7 +3967,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 187.96 111.76 0)
+			(at 165.1 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3791,7 +3978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 111.76 0)
+			(at 165.1 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3802,7 +3989,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 187.96 111.76 0)
+			(at 165.1 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3835,7 +4022,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 118.11 0)
+		(at 156.21 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3846,7 +4033,7 @@
 		(fields_autoplaced yes)
 		(uuid "372ec1b3-19b8-436e-9b11-6319c40fdfa3")
 		(property "Reference" "#PWR03"
-			(at 179.07 124.46 0)
+			(at 156.21 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3857,7 +4044,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 123.19 0)
+			(at 156.21 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3867,7 +4054,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 118.11 0)
+			(at 156.21 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3878,7 +4065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 118.11 0)
+			(at 156.21 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3889,7 +4076,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 118.11 0)
+			(at 156.21 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3913,7 +4100,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 241.3 85.09 0)
+		(at 218.44 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3924,7 +4111,7 @@
 		(fields_autoplaced yes)
 		(uuid "4362a19a-782d-4e20-bf7b-f39894be20ba")
 		(property "Reference" "SW13"
-			(at 241.3 77.47 0)
+			(at 218.44 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3934,7 +4121,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 241.3 80.01 0)
+			(at 218.44 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3944,7 +4131,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_PCB"
-			(at 241.3 80.01 0)
+			(at 218.44 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3955,7 +4142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 80.01 0)
+			(at 218.44 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3966,7 +4153,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 241.3 85.09 0)
+			(at 218.44 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3993,7 +4180,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 224.79 73.66 0)
+		(at 201.93 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4004,7 +4191,7 @@
 		(fields_autoplaced yes)
 		(uuid "4600c7ce-7599-485f-b30a-9166cb164b8e")
 		(property "Reference" "SW11"
-			(at 224.79 66.04 0)
+			(at 201.93 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4014,7 +4201,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 224.79 68.58 0)
+			(at 201.93 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4024,7 +4211,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 224.79 68.58 0)
+			(at 201.93 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4035,7 +4222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 68.58 0)
+			(at 201.93 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4046,7 +4233,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 224.79 73.66 0)
+			(at 201.93 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4073,7 +4260,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 191.77 73.66 0)
+		(at 168.91 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4084,7 +4271,7 @@
 		(fields_autoplaced yes)
 		(uuid "46efe5ca-79d6-4b7f-954c-b126193ec190")
 		(property "Reference" "SW3"
-			(at 191.77 66.04 0)
+			(at 168.91 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4094,7 +4281,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 191.77 68.58 0)
+			(at 168.91 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4104,7 +4291,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 191.77 68.58 0)
+			(at 168.91 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4115,7 +4302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 68.58 0)
+			(at 168.91 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4126,7 +4313,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 191.77 73.66 0)
+			(at 168.91 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4153,7 +4340,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 123.19 0)
+		(at 218.44 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4164,7 +4351,7 @@
 		(fields_autoplaced yes)
 		(uuid "470797ae-4208-497b-853b-d6c5aa0a756d")
 		(property "Reference" "#PWR07"
-			(at 241.3 129.54 0)
+			(at 218.44 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4175,7 +4362,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 128.27 0)
+			(at 218.44 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4185,7 +4372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 123.19 0)
+			(at 218.44 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4196,7 +4383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 123.19 0)
+			(at 218.44 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4207,7 +4394,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 123.19 0)
+			(at 218.44 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4231,7 +4418,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 157.48 50.8 270)
+		(at 134.62 52.07 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4242,7 +4429,7 @@
 		(fields_autoplaced yes)
 		(uuid "48dff916-21c7-4ab4-a617-c343492c4863")
 		(property "Reference" "#PWR05"
-			(at 153.67 50.8 0)
+			(at 130.81 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4253,7 +4440,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 161.29 50.7999 90)
+			(at 138.43 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4264,7 +4451,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 50.8 0)
+			(at 134.62 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4275,7 +4462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 50.8 0)
+			(at 134.62 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4286,7 +4473,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 157.48 50.8 0)
+			(at 134.62 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4310,7 +4497,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 203.2 109.22 0)
+		(at 180.34 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4321,7 +4508,7 @@
 		(fields_autoplaced yes)
 		(uuid "55ee8d79-ec82-4bfb-b8e0-ce767dbd1767")
 		(property "Reference" "#PWR012"
-			(at 203.2 113.03 0)
+			(at 180.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4332,7 +4519,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 203.2 104.14 0)
+			(at 180.34 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4342,7 +4529,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 109.22 0)
+			(at 180.34 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4353,7 +4540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 109.22 0)
+			(at 180.34 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4364,7 +4551,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 203.2 109.22 0)
+			(at 180.34 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4388,7 +4575,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 191.77 85.09 0)
+		(at 168.91 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4399,7 +4586,7 @@
 		(fields_autoplaced yes)
 		(uuid "5dc8d1bc-21dd-4388-8ac2-100f329f4c30")
 		(property "Reference" "SW4"
-			(at 191.77 77.47 0)
+			(at 168.91 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4409,7 +4596,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 191.77 80.01 0)
+			(at 168.91 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4419,7 +4606,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 191.77 80.01 0)
+			(at 168.91 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4430,7 +4617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 80.01 0)
+			(at 168.91 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4441,7 +4628,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 191.77 85.09 0)
+			(at 168.91 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4468,7 +4655,7 @@
 	)
 	(symbol
 		(lib_id "Seeed_Studio_XIAO_Series_2:XIAO-RP2040-Plus-SMD")
-		(at 129.54 55.88 0)
+		(at 106.68 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4479,7 +4666,7 @@
 		(fields_autoplaced yes)
 		(uuid "66f7184e-10a6-455e-a502-26dd700e3d9f")
 		(property "Reference" "U1"
-			(at 134.2233 106.68 0)
+			(at 111.3633 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4490,7 +4677,7 @@
 			)
 		)
 		(property "Value" "XIAO-RP2040-Plus-SMD"
-			(at 134.2233 109.22 0)
+			(at 111.3633 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4501,7 +4688,7 @@
 			)
 		)
 		(property "Footprint" "footprints:XIAO-RP2040-Plus-SMD"
-			(at 129.54 55.88 0)
+			(at 106.68 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4512,7 +4699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 55.88 0)
+			(at 106.68 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4523,7 +4710,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 55.88 0)
+			(at 106.68 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4667,7 +4854,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 46.99 90)
+		(at 134.62 48.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4678,7 +4865,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c6f9724-ecd5-40fb-b7b9-4ac946abbcd7")
 		(property "Reference" "#PWR011"
-			(at 163.83 46.99 0)
+			(at 140.97 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4689,7 +4876,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 46.9899 90)
+			(at 138.43 48.2599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4700,7 +4887,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 46.99 0)
+			(at 134.62 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4711,7 +4898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 46.99 0)
+			(at 134.62 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4722,7 +4909,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 46.99 0)
+			(at 134.62 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4746,7 +4933,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 115.57 0)
+		(at 228.6 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4757,7 +4944,7 @@
 		(fields_autoplaced yes)
 		(uuid "70364bb0-55c5-49b6-b735-7f9580f8db89")
 		(property "Reference" "#PWR08"
-			(at 251.46 121.92 0)
+			(at 228.6 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4768,7 +4955,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 120.65 0)
+			(at 228.6 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4778,7 +4965,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 115.57 0)
+			(at 228.6 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4789,7 +4976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 115.57 0)
+			(at 228.6 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4800,7 +4987,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 115.57 0)
+			(at 228.6 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4824,7 +5011,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 208.28 49.53 0)
+		(at 185.42 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4835,7 +5022,7 @@
 		(fields_autoplaced yes)
 		(uuid "7798b6db-ba40-4006-b1fd-1d7e596b5429")
 		(property "Reference" "SW5"
-			(at 208.28 41.91 0)
+			(at 185.42 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4845,7 +5032,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 208.28 44.45 0)
+			(at 185.42 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4855,7 +5042,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 208.28 44.45 0)
+			(at 185.42 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4866,7 +5053,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 44.45 0)
+			(at 185.42 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4877,7 +5064,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 208.28 49.53 0)
+			(at 185.42 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4904,7 +5091,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 157.48 43.18 0)
+		(at 134.62 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4915,7 +5102,7 @@
 		(fields_autoplaced yes)
 		(uuid "79970bd8-7f47-45c3-ada0-9e3418b26fb5")
 		(property "Reference" "#PWR010"
-			(at 157.48 46.99 0)
+			(at 134.62 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4926,7 +5113,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 157.48 38.1 0)
+			(at 134.62 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4936,7 +5123,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 43.18 0)
+			(at 134.62 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4947,7 +5134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 43.18 0)
+			(at 134.62 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4958,7 +5145,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 157.48 43.18 0)
+			(at 134.62 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4982,7 +5169,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 250.19 88.9 0)
+		(at 227.33 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4993,7 +5180,7 @@
 		(fields_autoplaced yes)
 		(uuid "82fab2b6-3fb7-4bd1-9569-b35f5001bd3f")
 		(property "Reference" "#PWR06"
-			(at 250.19 95.25 0)
+			(at 227.33 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5004,7 +5191,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.19 93.98 0)
+			(at 227.33 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5014,7 +5201,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 88.9 0)
+			(at 227.33 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5025,7 +5212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 88.9 0)
+			(at 227.33 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5036,7 +5223,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 250.19 88.9 0)
+			(at 227.33 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5060,7 +5247,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 208.28 73.66 0)
+		(at 185.42 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5071,7 +5258,7 @@
 		(fields_autoplaced yes)
 		(uuid "84995dcf-8493-4a8c-897f-cd1f7aa13dec")
 		(property "Reference" "SW7"
-			(at 208.28 66.04 0)
+			(at 185.42 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5081,7 +5268,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 208.28 68.58 0)
+			(at 185.42 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5091,7 +5278,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 208.28 68.58 0)
+			(at 185.42 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5102,7 +5289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 68.58 0)
+			(at 185.42 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5113,7 +5300,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 208.28 73.66 0)
+			(at 185.42 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5140,7 +5327,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 191.77 49.53 0)
+		(at 168.91 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5151,7 +5338,7 @@
 		(fields_autoplaced yes)
 		(uuid "8717f73a-4440-488a-a3a8-669d5428d1ef")
 		(property "Reference" "SW1"
-			(at 191.77 41.91 0)
+			(at 168.91 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5161,7 +5348,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 191.77 44.45 0)
+			(at 168.91 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5171,7 +5358,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 191.77 44.45 0)
+			(at 168.91 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5182,7 +5369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 44.45 0)
+			(at 168.91 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5193,7 +5380,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 191.77 49.53 0)
+			(at 168.91 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5219,8 +5406,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 165.1 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "988bb5c8-c984-4acd-a700-d4d0328cc8ef")
+		(property "Reference" "D1"
+			(at 165.1 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 165.1 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 165.1 42.545 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 165.1 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 165.1 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 165.1 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 165.1 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ffe5fb6d-c165-4742-9494-296cabe025df")
+		)
+		(pin "2"
+			(uuid "f1fee98f-274a-47f3-8fca-5e83ee389de3")
+		)
+		(instances
+			(project "hackapad-v1"
+				(path "/c2cae7c0-3d66-4077-a4a7-1ee8e20810d7"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 224.79 60.96 0)
+		(at 201.93 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5231,7 +5520,7 @@
 		(fields_autoplaced yes)
 		(uuid "9be9d040-0888-4cd9-96cb-b6160567cd9c")
 		(property "Reference" "SW10"
-			(at 224.79 53.34 0)
+			(at 201.93 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5241,7 +5530,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 224.79 55.88 0)
+			(at 201.93 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5251,7 +5540,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 224.79 55.88 0)
+			(at 201.93 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5262,7 +5551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 55.88 0)
+			(at 201.93 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5273,7 +5562,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 224.79 60.96 0)
+			(at 201.93 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5300,7 +5589,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 224.79 49.53 0)
+		(at 201.93 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5311,7 +5600,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7036140-56cd-4e0c-9a65-b07d94e80c4c")
 		(property "Reference" "SW9"
-			(at 224.79 41.91 0)
+			(at 201.93 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5321,7 +5610,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 224.79 44.45 0)
+			(at 201.93 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5331,7 +5620,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 224.79 44.45 0)
+			(at 201.93 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5342,7 +5631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 44.45 0)
+			(at 201.93 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5353,7 +5642,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 224.79 49.53 0)
+			(at 201.93 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5380,7 +5669,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 212.09 111.76 0)
+		(at 189.23 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5390,7 +5679,7 @@
 		(dnp no)
 		(uuid "bbf60beb-1fa0-487d-a5d9-539823c6a3a4")
 		(property "Reference" "J1"
-			(at 210.82 103.886 0)
+			(at 187.96 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5401,7 +5690,7 @@
 			)
 		)
 		(property "Value" "Pogo Pin"
-			(at 208.026 106.172 0)
+			(at 185.166 107.442 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5412,7 +5701,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 111.76 0)
+			(at 189.23 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5423,7 +5712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 111.76 0)
+			(at 189.23 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5434,7 +5723,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 212.09 111.76 0)
+			(at 189.23 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5467,7 +5756,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 113.03 270)
+		(at 207.01 114.3 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5478,7 +5767,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc061cc4-5839-4702-bd30-010472e2872d")
 		(property "Reference" "#PWR09"
-			(at 224.79 113.03 0)
+			(at 200.66 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5489,7 +5778,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.33 113.0299 90)
+			(at 203.2 114.2999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5500,7 +5789,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 113.03 0)
+			(at 207.01 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5511,7 +5800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 113.03 0)
+			(at 207.01 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5522,7 +5811,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 113.03 0)
+			(at 207.01 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5546,7 +5835,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch_MP")
-		(at 241.3 113.03 0)
+		(at 218.44 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5557,7 +5846,7 @@
 		(fields_autoplaced yes)
 		(uuid "d62e39b1-4651-4b58-bdba-17cbee0d3433")
 		(property "Reference" "SW16"
-			(at 241.3 102.87 0)
+			(at 218.44 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5567,7 +5856,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch_MP"
-			(at 241.3 105.41 0)
+			(at 218.44 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5577,7 +5866,7 @@
 			)
 		)
 		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
-			(at 237.49 108.966 0)
+			(at 214.63 110.236 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5588,7 +5877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 125.73 0)
+			(at 218.44 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5599,7 +5888,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
-			(at 241.3 128.27 0)
+			(at 218.44 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5638,7 +5927,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 208.28 60.96 0)
+		(at 185.42 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5649,7 +5938,7 @@
 		(fields_autoplaced yes)
 		(uuid "e655b3e7-e3bb-48f4-b124-4090de5e1047")
 		(property "Reference" "SW6"
-			(at 208.28 53.34 0)
+			(at 185.42 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5659,7 +5948,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 208.28 55.88 0)
+			(at 185.42 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5669,7 +5958,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 208.28 55.88 0)
+			(at 185.42 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5680,7 +5969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 55.88 0)
+			(at 185.42 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5691,7 +5980,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 208.28 60.96 0)
+			(at 185.42 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5718,7 +6007,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 179.07 114.3 90)
+		(at 156.21 115.57 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5729,7 +6018,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7ae26b6-da2a-42c2-a43c-6bebe2a50eef")
 		(property "Reference" "#PWR04"
-			(at 182.88 114.3 0)
+			(at 160.02 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5740,7 +6029,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 175.26 114.2999 90)
+			(at 152.4 115.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5751,7 +6040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 114.3 0)
+			(at 156.21 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5762,7 +6051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 114.3 0)
+			(at 156.21 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5773,7 +6062,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 179.07 114.3 0)
+			(at 156.21 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
