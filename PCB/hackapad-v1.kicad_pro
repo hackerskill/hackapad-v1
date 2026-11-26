@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 1.5,
+          "height": 2.2,
+          "width": 2.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -70,7 +70,16 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "unconnected_items|99370000|137050000|F.Cu|4|0040fa65-487d-401a-aa6f-8f38b04cf358|ff9f4cd7-f800-4939-9574-36b304d4f1bb",
+          ""
+        ],
+        [
+          "unconnected_items|99370000|138950000|F.Cu|4|f8f6c38c-7ca7-4087-8120-9cb98f7e8e35|8ccfa5bc-e6f8-4e08-812d-4d894009c937",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -661,7 +670,7 @@
         "uuid": "c2cae7c0-3d66-4077-a4a7-1ee8e20810d7"
       }
     ],
-    "used_designators": "#PWR1-12,J1-2,D1,SW1-16,U1",
+    "used_designators": "SW1-16,D1-18,C1,#PWR1-12,J1-3,U1-2",
     "variants": []
   },
   "sheets": [
